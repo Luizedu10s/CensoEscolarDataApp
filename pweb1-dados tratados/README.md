@@ -2,7 +2,7 @@
 
 Projeto desenvolvido em Python utilizando Pandas para extração, tratamento e organização de dados do Censo Escolar 2025.
 
-O objetivo da aplicação é identificar as 30 Instituições de Ensino com maior quantidade de matrículas no estado da Paraíba e disponibilizar os dados em formato JSON, podendo também ser utilizados em uma API Fake com JSON Server.
+O objetivo da aplicação é identificar as 30 Instituições de Ensino com maior quantidade de matrículas no estado da Paraíba e disponibilizar os dados em formato JSON.
 
 ---
 
@@ -11,7 +11,6 @@ O objetivo da aplicação é identificar as 30 Instituições de Ensino com maio
 - Python
 - Pandas
 - JSON
-- JSON Server
 - VS Code
 
 ---
@@ -187,39 +186,13 @@ python app.py
 
 ---
 
-# Executar o JSON Server
-
-Instalação:
-
-```bash
-npm install -g json-server
-```
-
-Execução:
-
-```bash
-json-server --watch db.json
-```
-
----
-
-# API Disponível
-
-Após iniciar o JSON Server:
-
-```bash
-http://localhost:3000/instituicoes
-```
-
----
-
 # Resultado
 
 A aplicação gera:
 
 - um JSON estruturado;
 - os 30 maiores registros de matrículas da Paraíba;
-- uma API REST Fake utilizando JSON Server.
+- dados organizados e prontos para integração com aplicações externas.
 
 ---
 
